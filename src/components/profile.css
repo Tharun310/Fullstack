@@ -1,0 +1,104 @@
+/* profile.css */
+.profile {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background for the entire page */
+  }
+  
+  .profile {
+    background-color: #fff; /* White background for the profile container */
+    padding: 40px; /* Increased padding for spacing */
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile h2 {
+    font-size: 36px; /* Larger font size for the title */
+    margin-bottom: 20px; /* Increased spacing below the title */
+    color: #333; /* Dark text color */
+  }
+  
+  .profile p {
+    font-size: 24px; /* Larger font size for details */
+    margin: 16px 0; /* Increased vertical spacing between details */
+    color: #555; /* Slightly darker text color */
+  }
+  
+  .profile button {
+    margin-top: 30px; /* Increased margin for the button */
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 24px; /* Larger font size for the button text */
+  }
+  
+  .profile button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  /* profile.css */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; /* Ensure the modal appears on top of other content */
+  }
+  
+  .modal-content {
+    background-color: #fff; /* White background for the modal content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .modal h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .modal label {
+    font-size: 18px;
+    margin-top: 10px;
+    display: block;
+    color: #555;
+  }
+  
+  .modal input {
+    font-size: 18px;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modal button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .modal button:hover {
+    background-color: #0056b3;
+  }
+  
